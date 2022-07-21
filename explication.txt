@@ -1,0 +1,19 @@
+
+GET - GET AND - is used to just get an information or return on information. Just to get or return a data or something like that.
+
+POST - just a create something new, and put it like that with something new, or create like a new object in the database.
+
+PUT - is use to update a data or to update something in a particular object.
+
+DELETE - is just delete something
+
+This is the basic command line just to run our fastAPI project for our server.
+uvicorn main:app --reload
+
+PATH PARAMETERS
+
+QUERY PARAMETERS
+
+The query is used to pass a value into a URL, that is  quite similar to the path parameter.
+google.com/results?search=Python
+search=Python -> query
