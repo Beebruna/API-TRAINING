@@ -17,3 +17,13 @@ QUERY PARAMETERS
 The query is used to pass a value into a URL, that is  quite similar to the path parameter.
 google.com/results?search=Python
 search=Python -> query
+
+def get_student(name: Optional[str] = None, test: int):
+SyntaxError: non-default argument follows default argument
+
+We have named optional, and then we have test which is optional.
+So Python doesn't allow us to have like, an optional argument before, a required argument.
+Python is a language writing
+
+def get_student(test: int, name: Optional[str] = None):
+
